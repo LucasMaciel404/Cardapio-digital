@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    color: white;
+}
+:root{
+    --colorBtnH2Text: #FFAE00;
+    --arredondamentoBordas: 10px;
+    --back-color: #1e1f22;
+    --cards-color: RGBA(37, 37, 37, 0.8);
+}
+body{
+    background-image: url(imagens/bg.png);
+    background-repeat: repeat;
+}
