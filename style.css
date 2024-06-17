@@ -1,15 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
+    font-family: "Roboto Condensed", sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+    color: white;
+}
+:root{
+    --colorBtnH2Text: #FFAE00;
+    --arredondamentoBordas: 10px;
 }
 body{
     background-image: url(imagens/bg.png);
     background-repeat: repeat;
+    text-align: center;
 }
 header{
     width: 100vw;
     background-color: #1e1f22;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    color: var(--colorBtnH2Text);
     text-align: center;
 }
 a{
@@ -17,4 +34,42 @@ a{
 
     color: white;
     text-decoration: none;
+
+    font-weight: bold;
+}
+.logo{
+    width: 250px;
+}
+.boxProduto{
+    
+    width: 850px;
+    margin: 50px auto; 
+    
+    border-radius: var(--arredondamentoBordas);
+    background-color: RGBA(37, 37, 37, 0.8);
+}
+.imagemProduto{
+    width: 400px;
+}
+.boxImg, .boxTexto{
+    width: 400px;
+    display: inline-block;
+    text-align: start;
+    vertical-align: middle;
+}
+h1,h2,h3{
+    margin: 20px 0;
+}
+button{
+    width: 150px;
+
+    cursor:pointer;
+    
+    border: none;
+    border-radius: var(--arredondamentoBordas);
+    
+    margin: 10px 0;
+    padding: 10px;
+    
+    background-color: var(--colorBtnH2Text);
 }
