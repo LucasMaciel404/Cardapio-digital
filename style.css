@@ -41,7 +41,6 @@ a{
     width: 250px;
 }
 .boxProduto{
-    
     width: 850px;
     margin: 50px auto; 
     
@@ -72,4 +71,18 @@ button{
     padding: 10px;
     
     background-color: var(--colorBtnH2Text);
+}
+.boxProduto{
+    display: flex;
+    flex-direction: row;
+}
+.btn-carrinho{
+    width: 30px;
+    height: 30px; 
+    margin: 5px 10px;
+    padding: 2px;
+}
+.bg-none{
+    background-color: transparent;
+    border: none;
 }
