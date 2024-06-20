@@ -86,3 +86,9 @@ button{
     background-color: transparent;
     border: none;
 }
+.ico{ 
+    width: 25px;
+}
+.ingrediente{
+    border: 2px solid white ;
+}
